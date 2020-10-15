@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SuperGit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_add">Add</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="search_new_user_account">Search New User Git Account</string>
+    <string name="message_empty_username">Please Enter A Git User Account</string>
+    <string name="add_private_repository">Add private repository</string>
+    <string name="user_not_found">User Not Found</string>
+    <string name="or">OR</string>
+    <string name="type_an_username">Type an Username...</string>
+    <string name="error_msg_to_get_current_user">Something was wrong :(, Do you have internet connection?</string>
+    <string name="add_user_text">Let\'s begin by adding a Git User !</string>
+    <string name="add_user_button">Add User</string>
+    <string name="error_removing_user_msg">Error Occurred during suppression</string>
+    <string name="visibility_public">public</string>
+    <string name="visibility_private">private</string>
+    <string name="error_login_github_process_msg">There was an error in the login process</string>
+    <string name="commit_item_date_text">committed %s</string>
+    <string name="no_data">NO DATA</string>
+
+</resources>

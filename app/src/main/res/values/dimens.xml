@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen8dp">8dp</dimen>
+    <dimen name="dimen16dp">16dp</dimen>
+    <dimen name="dimen24sp">24sp</dimen>
+    <dimen name="dime24sp">24sp</dimen>
+    <dimen name="dimen24dp">24dp</dimen>
+    <dimen name="no_user_dimen">100dp</dimen>
+    <dimen name="no_user_text_size">20sp</dimen>
+    <dimen name="picture_size">150dp</dimen>
+    <dimen name="repo_description_text_size">18sp</dimen>
+    <dimen name="repo_user_avatar_size">50dp</dimen>
+
+</resources>

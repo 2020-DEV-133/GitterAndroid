@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "703316149984",
+    "firebase_url": "https://supergit-3ecc2.firebaseio.com",
+    "project_id": "supergit-3ecc2",
+    "storage_bucket": "supergit-3ecc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703316149984:android:8a28d9f7afeffdfeec7285",
+        "android_client_info": {
+          "package_name": "com.debin.gitterandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703316149984-jv4gt7rqgv5ssbfq7j9vf4uo878de8s4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.debin.gitterandroidt",
+            "certificate_hash": "2e37d6277d8d5c883651d6d6f877f7a89de571f8"
+          }
+        },
+        {
+          "client_id": "703316149984-gr0324d8uk31sdgr5lij116g22ifhs3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.debin.gitterandroid",
+            "certificate_hash": "90efd298d32f3cc6e2745b7a510b5163ae27b216"
+          }
+        },
+        {
+          "client_id": "703316149984-plr1l4v405vdk65uq5o6e6fufbnatg1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHtEPqKFgzxS90W1Sa_FT1tULudVX0jVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703316149984-plr1l4v405vdk65uq5o6e6fufbnatg1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

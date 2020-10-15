@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home"
+    app:startDestination="@+id/user"
+    >
+
+    <fragment
+        android:id="@+id/user"
+        android:name="com.debin.gitterandroid.ui.users.UserFragment"
+        android:label="UserFragment"
+        tools:layout="@layout/fragment_user">
+        <action
+            android:id="@+id/action_user_to_searchRepoFragment"
+            app:destination="@id/searchRepoFragment"
+
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            />
+        <action
+            android:id="@+id/action_fragment_to_add_graph"
+            app:destination="@id/add"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            />
+
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchRepoFragment"
+        android:name="com.debin.gitterandroid.ui.repo.SearchRepoFragment"
+        android:label="fragment_search_repo"
+        tools:layout="@layout/fragment_search_repo" >
+        <action
+            android:id="@+id/action_searchRepoFragment_to_commitsFragment"
+            app:destination="@id/commitsFragment"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/commitsFragment"
+        android:name="com.debin.gitterandroid.ui.commits.CommitsFragment"
+        android:label="fragment_commits"
+        tools:layout="@layout/fragment_commits"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        />
+</navigation>
